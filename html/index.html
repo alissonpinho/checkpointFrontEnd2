@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="https://seeklogo.com/images/G/governo-do-estado-do-rio-de-janeiro-logo-5C1994A66F-seeklogo.com.png" type="image/x-icon">
+  <title>Rio de Janeiro</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#sobre">sobre</a></li>
+        <li><a href="#prefeitura">prefeitura</a></li>
+        <li><a href="#contato">contato</a></li>
+        <li><a href="#Formulario">Formulario</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+    <main>
+      <section id="sobre" class="box"> 
+        
+        <article class="minha-cidade">
+          <h1>Rio de Janeiro</h1>
+          <p><strong>Lugar</strong> que ocupa atualmente a cidade do Rio de Janeiro foi descoberta no dia 1º de janeiro de 1502 por uma expedição portuguesa comandada por Gaspar de Lemos, que acreditou ter chegado à desembocadura de um grande rio, assim, batizou a baía com o nome de Rio de Janeiro.</p>
+        </article>
+
+      </section>
+
+      <section id="Prefeitura" class="box">
+        <h2>Prefeitura</h2>
+        <article class="video">
+
+          <iframe src="https://www.youtube.com/embed/Eleb-ANt0SI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </article>
+      </section>
+
+      <section id="Curiosidades" class="box">
+        <div>
+          <img src="https://www.pinclipart.com/picdir/middle/46-469601_feet-clipart-soccer-bola-de-futebol-desenho-png.png">
+          </div>
+        <h2>Curiosidades</h2>
+         <video src="https://youtu.be/Eleb-ANt0SI" autoplay></video>
+        
+        <!-- Testar add video salvo no meu pc  -->
+         <ul>
+          <li>1. A cidade recebeu o seu nome de um rio que não existe</li>
+          <li>2. O Rio já fez parte de uma colônia francesa</li>
+          <li>3. Foi a capital de um dos maiores impérios do mundo</li>
+          <li>4. O seu principal ponto turístico é atingindo por raios todos os anos</li>
+          
+        
+
+        </article>
+        </section>
+      
+        <section id="Formulario" class="box">
+          <h1>Formulario</h1>
+          <form action="/usuario/cadastro" method="GET" id="usrcad">
+            <fieldset form="usrcad">
+              <legend>Dados Pessoais</legend>
+              <div>
+                <label for="nome">Nome: *</label>
+                <input type="text" name="nome" id="nome" required placeholder="Insira seu nome aqui">
+              </div>
+      
+              <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Insira seu email">
+              </div>
+      
+              <div>
+                <label for="Telefone">Telefone:</label>
+                <input type="Telefone" name="Telefone" id="Telefone">
+              </div>
+      
+              <div>
+                <label for="idade">Idade:</label>
+                <input type="number" name="idade" id="idade">
+              </div>
+           <div>
+            <label>Agendar para quando?</label>
+            <input type="datetime-local" name="data" id="data">
+          </div>
+
+          <div>
+          <select name="Pontos" id="Pontos">
+            <option value="">Pontos turísticos</option>
+            <optgroup label="Pontos turísticos">
+              <option value="Cristo Redentor">Cristo Redentor</option>
+              <option value="Pão de açucar">Pão de açucar</option>
+              <option value="Arcos da Lapa">Arcos da Lapa</option>
+              <option value="Praia de Copacana">Praia de Copacana</option>
+              <option value="Batata de Marechaç">Batata de Marechal</option>
+              </div>
+
+          <legend>Interesses na cidade : </legend>
+          <div class="pontosTur">
+            <input type="radio" name="Cidade" id="dinheiro">
+            <label for="Turista">Turista</label>
+            <input type="radio" name="Cidade" id="credito">
+            <label for="Residente">Residente</label>
+            <input type="radio" name="Cidade" id="debito">
+            <label for="Estudante">Estudante</label>
+           
+          </div>
+              
+        </ul>
+      </section>
+      <center> 
+      <button type="submit">Pedir</button>
+      <button type="reset">Cancelar</button>
+    </center>
+    </main>
+
+
+
+    <aside>
+      <a href="https://www.youtube.com/c/CanaldoRiodeJaneiro/videos" target = "blank"> <img src="https://logodownload.org/wp-content/uploads/2014/10/youtube-logo-5-2.png"></a>
+      <a href="https://www.instagram.com/prefeitura_rio/?hl=pt-br" target = "blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png"></a>
+    </aside>
+
+    <footer id="by">
+      <ol>
+        <li>Zona Norte</li>
+        <li>Zona Sul</li>
+        <li>Zona Oeste</li>
+        <li>Zona Leste</li>
+      </ol>
+      <p>&copy; Todos os direitos reservados - 2021 &reg;</p>
+    </footer>
+</body>
+</html>
